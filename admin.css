@@ -1,0 +1,130 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: whitesmoke; /* Light gray background */
+    color: #333; /* Dark gray text */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white; /* White container background */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc; /* Light gray border */
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: rgb(202, 235, 246); /* Light gray header background */
+}
+
+input[type="text"],
+input[type="submit"],
+button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 4px;
+    background-color: lightblue; /* Bright blue button background */
+    color: white; /* White text */
+}
+
+input[type="submit"],
+button {
+    cursor: pointer;
+}
+
+    input[type="submit"]:hover,
+    button:hover {
+        background-color: rgb(114, 171, 190); /* Darker blue on hover */
+    }
+
+
+
+    .close:hover,
+    .close:focus {
+        color: #333; /* Slightly darker on hover */
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    .section form div {
+        margin-bottom: 10px; /* Add space between each label-input pair */
+    }
+
+    /* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #777;
+    width: 80%;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #fff;
+    text-decoration: none;
+    cursor: pointer;
+}
+/* Styling for the side navigation */
+.sidenav {
+    height: 100%;
+    width: 200px; /* Sidebar width */
+    position: fixed; /* Fixed position - Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Top position */
+    left: 0; /* Left position */
+    background-color: rgb(91, 151, 173); /* Dark blue background color */
+    overflow-x: hidden; /* Hide horizontal scrollbar */
+    padding-top: 20px; /* Space at the top */
+}
+
+.sidenav a {
+    padding: 10px 20px; /* Padding inside the navigation links */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Set the font size */
+    color: #ecf0f1; /* Light gray text color */
+    display: block; /* Display block element (one link per line) */
+    margin-bottom: 55px; /* Add bigger margin between each navigation item */
+}
+
+.sidenav a:hover {
+    background-color: #34495e; /* Dark blue background color on hover */
+}

@@ -1,0 +1,125 @@
+/* Sidebar Styles */
+.sidebar {
+    background-color: #333; /* Sidebar background color */
+    color: #fff; /* Sidebar text color */
+    width: 250px; /* Sidebar width */
+    height: 100%; /* Set sidebar height to fill parent container */
+    position: fixed; /* Fix sidebar position */
+    top: 0; /* Position sidebar at the top */
+    left: 0; /* Position sidebar at the left */
+    overflow-y: auto; /* Add scrollbar if content overflows vertically */
+}
+
+.logo {
+    text-align: center; /* Center align logo */
+    padding: 20px 0; /* Add padding to logo */
+}
+
+.logo img {
+    width: 80%; /* Adjust logo width */
+}
+
+.navbar {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.navbar li {
+    padding: 15px 20px; /* Add padding to navbar items */
+}
+
+.navbar li:hover {
+    background-color: #555; /* Hover background color */
+}
+
+.navbar a {
+    color: #fff; /* Navbar link color */
+    text-decoration: none; /* Remove underline */
+    font-size: 18px; /* Font size */
+    display: block; /* Display links as block elements */
+}
+
+.navbar a:hover {
+    color: #fff; /* Hover link color */
+    text-decoration: none; /* Remove underline on hover */
+}
+
+/* Styling for active link */
+.navbar .active {
+    background-color: #555;
+}
+
+
+
+.main-info, .additional-details {
+    margin-bottom: 20px;
+}
+
+
+.card h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #fff; /* White text color */
+}
+
+.main-info, .additional-details {
+    margin-bottom: 20px;
+}
+
+.profile-pic {
+    margin-right: 20px;
+}
+
+
+.card-body {
+    flex: 1;
+    color: #fff; /* White text color */
+    text-align: center; /* Center align text */
+}
+
+.card-title {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.card-subtitle {
+    font-size: 20px;
+    color: #ccc; /* Light gray text color */
+    margin-bottom: 10px;
+}
+
+.card-body p {
+    text-align: center2;
+}
+
+/* Hover effect */
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.card2:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.profile-img {
+    display: block;
+    margin: 0 auto;
+    max-width: 200px; /* Adjust the maximum width as needed */
+    width: 100%;
+    margin-bottom: 20px; /* Adjust spacing below the image */
+}
+
+
+
+/* Footer Styles */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    background-color: #333; /* Footer background color */
+    color: #fff; /* Footer text color */
+    text-align: center; /* Center align text */
+    padding: 20px 0; /* Footer padding */
+}
